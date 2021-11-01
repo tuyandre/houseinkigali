@@ -1,8 +1,8 @@
 {
-    "name": "Flex Home",
+    "name": "House inKigali",
     "namespace": "Theme\\FlexHome\\",
     "description": "Real Estate theme",
-    "author": "Botble Technologies",
+    "author": "Tuyandre Developer",
     "version": "2.29.2",
     "required_plugins": [
         "blog",

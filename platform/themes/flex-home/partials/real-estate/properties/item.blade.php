@@ -3,15 +3,15 @@
 <style>
 
     .Share-with-me #social-links ul li{
-        display: inline;
-         position: relative !important;
+        display: inline !important;
+         /*position: relative !important;*/
     }
     .Share-with-me #social-links ul li a{
-        padding: 5px;
-        border: 1px solid #ccc;
-        margin: 10px;
-        font-size: 15px;
-        background: #e3e3ea;
+        padding: 5px !important;
+        border: 1px solid #ccc !important;
+        margin: 10px !important;
+        font-size: 15px !important;
+        background: #e3e3ea !important;
     }
 
 </style>
@@ -64,10 +64,11 @@
                         src="{{ Theme::asset()->url('images/area.svg') }}" alt="icon"></i> <i
                     class="vti">{{ $property->square_text }}</i> </span>
             @endif
-            <hr>
-        <span class=" Share-with-me">
-{!! Share::page(url($property->url,$property->description))->whatsapp()->facebook()->twitter()->telegram() !!}
-        </span>
+                <hr>
+               {!! Theme::partial('share', ['title' => __('Share this property'), 'description' => $property->description]) !!}
+
+{{--            {!! Share::page(url($property->url,$property->description))->whatsapp()->facebook()->twitter()->telegram() !!}--}}
+
         </p>
 
 

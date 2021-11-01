@@ -9,7 +9,7 @@ app()->booted(function () {
             'label'      => __('Copyright'),
             'attributes' => [
                 'name'    => 'copyright',
-                'value'   => '© 2021 Botble Technologies. All right reserved.',
+                'value'   => '© 2021 House in Kigali Technologies. All right reserved.',
                 'options' => [
                     'class'        => 'form-control',
                     'placeholder'  => __('Change copyright'),
