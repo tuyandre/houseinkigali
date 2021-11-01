@@ -1,3 +1,22 @@
+{{--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet">--}}
+
+<style>
+
+    .Share-with-me #social-links ul li{
+        display: inline;
+         position: relative !important;
+    }
+    .Share-with-me #social-links ul li a{
+        padding: 5px;
+        border: 1px solid #ccc;
+        margin: 10px;
+        font-size: 15px;
+        background: #e3e3ea;
+    }
+
+</style>
+
+
 <div class="item" data-lat="{{ $property->latitude }}" data-long="{{ $property->longitude }}">
     <div class="blii">
         <div class="img">
@@ -45,6 +64,12 @@
                         src="{{ Theme::asset()->url('images/area.svg') }}" alt="icon"></i> <i
                     class="vti">{{ $property->square_text }}</i> </span>
             @endif
+            <hr>
+        <span class=" Share-with-me">
+{!! Share::page(url($property->url,$property->description))->whatsapp()->facebook()->twitter()->telegram() !!}
+        </span>
         </p>
+
+
     </div>
 </div>
