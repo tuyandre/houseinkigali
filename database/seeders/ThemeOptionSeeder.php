@@ -108,6 +108,20 @@ class ThemeOptionSeeder extends BaseSeeder
             [
                 [
                     'key'   => 'social-name',
+                    'value' => 'Whatsapp',
+                ],
+                [
+                    'key'   => 'social-icon',
+                    'value' => 'fab fa-whatsapp',
+                ],
+                [
+                    'key'   => 'social-url',
+                    'value' => 'https://wa.me/',
+                ],
+            ],
+            [
+                [
+                    'key'   => 'social-name',
                     'value' => 'Facebook',
                 ],
                 [
