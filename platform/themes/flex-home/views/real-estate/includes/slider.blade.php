@@ -1,4 +1,12 @@
+<style>
+    .owl-carousel1{
+        display: flex;
+    }
+    .owl-carousel1 .item img{-o-object-fit: contain;object-fit:fill}
+</style>
 <div class="boxsliderdetail">
+{{--    <div class="row">--}}
+{{--        <div class="col-xs-12 col-md-8 col-sm-8">--}}
     <div class="slidetop">
         <div class="owl-carousel" id="listcarousel">
             @foreach ($object->images as $image)
@@ -67,4 +75,7 @@
             </div>
         </div>
     </div>
+
+{{--        </div>--}}
+{{--    </div>--}}
 </div>
