@@ -2,14 +2,14 @@
 
 <style>
 
-    .Share-with-me #social-links ul li{
+    #social-links ul li{
         display: inline !important;
         /*position: relative !important;*/
     }
-    .Share-with-me #social-links ul li a{
-        padding: 5px !important;
+    #social-links ul li a{
+        padding: 2px !important;
         border: 1px solid #ccc !important;
-        margin: 10px !important;
+        margin: 2px !important;
         font-size: 15px !important;
         background: #e3e3ea !important;
     }
@@ -68,6 +68,18 @@
         font-weight: bold;
     }
 
+    /*#social-links ul {*/
+    /*    list-style-type: none;*/
+    /*    color: #075E54 !important;*/
+    /*    padding: 0;*/
+    /*    margin: 0;*/
+    /*    background-color: whitesmoke;*/
+    /*}*/
+    /*#social-links ul li a{*/
+    /*    color: #075E54 !important;*/
+    /*    border-color: white;*/
+    /*    */
+    /*}*/
     .image__description {
         font-size: 0.76em;
         margin-top: 0.5em;
@@ -95,23 +107,28 @@
 
             <a href="{{ $property->url }}" class="linkdetail"></a>
 
+
+{{--            <div class="media-count-wrapper">--}}
+{{--                <div class="media-count">--}}
+{{--                    <img src="{{ Theme::asset()->url('images/media-count.svg') }}" alt="media">--}}
+{{--                    <span>{{ count($property->images) }}</span>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+
             <div class="media-count-wrapper">
-                <div class="media-count">
-                    <img src="{{ Theme::asset()->url('images/media-count.svg') }}" alt="media">
-                    <span>{{ count($property->images) }}</span>
-                </div>
+                {!! $property->status->toHtml() !!}
             </div>
 
 
-            <div class="status">{!! $property->status->toHtml() !!}</div>
+{{--            <div class="status">{!! $property->status->toHtml() !!}</div>--}}
             <ul class="item-price-wrap hide-on-list">
                 <li class="h-type"><span>{{ $property->category->name }}</span></li>
-                <li class="item-price">{{ format_price($property->price, $property->currency) }}</li>
+{{--                <li class="item-price">{{ format_price($property->price, $property->currency) }}</li>--}}
             </ul>
         </div>
 
         <div class="image__overlay image__overlay">
-        <!-- <div class="image__title">{{ $property->category->name }}</div> -->
+         <div class="image__title">{{ $property->category->name }}</div>
             <p class="image__description">
                 {{ $property->name }}<br> It is featured with {{$property->number_bedroom}} bedroom,
                 {{ $property->number_bathroom }} bathroom,<br>{{ $property->description }}
@@ -121,14 +138,19 @@
 
 
     <div class="description">
+       {{-- <a href="#" class="text-orange heart add-to-wishlist" data-id="{{ $property->id }}"
+           title="{{ __('I care about this property!!!') }}"><i class="far fa-heart"></i></a>--}}
+        {!! Share::page(url($property->url,$property->description))->whatsapp()!!}
         <a href="#" class="text-orange heart add-to-wishlist" data-id="{{ $property->id }}"
            title="{{ __('I care about this property!!!') }}"><i class="far fa-heart"></i></a>
 
+        <hr>
         <a href="{{ $property->url }}">
             <h5>{{ $property->name }}</h5>
-            <p class="dia_chi"><i class="fas fa-map-marker-alt"></i> {{ $property->city->name }},
-                {{ $property->city->state->name }}</p>
+{{--            <p class="dia_chi"><i class="fas fa-map-marker-alt"></i> {{ $property->city->name }},--}}
+{{--                {{ $property->city->state->name }}</p>--}}
         </a>
+<hr>
         <p class="threemt bold500">
 
             @if ($property->number_bedroom)
@@ -142,17 +164,12 @@
                             src="{{ Theme::asset()->url('images/bath.svg') }}" alt="icon"></i> <i
                         class="vti">{{ $property->number_bathroom }}</i></span>
             @endif
-            @if($property->square)
-                <span data-toggle="tooltip" data-placement="top" data-original-title="{{ __('Square') }}"> <i><img
-                            src="{{ Theme::asset()->url('images/area.svg') }}" alt="icon"></i> <i
-                        class="vti">{{ $property->square_text }}</i> </span>
-        @endif
+{{--            @if($property->square)--}}
+                <span  data-toggle="tooltip" data-placement="top" data-original-title="{{ __('Square') }}">
+{{--                    <i><img src="{{ Theme::asset()->url('images/area.svg') }}" alt="icon"></i> --}}
+                    <i class="vti item-price">{{ format_price($property->price, $property->currency) }}</i> </span>
+{{--        @endif--}}
 
-        <hr>
-        {!! Theme::partial('share', ['title' => __('Share this property'), 'description' => $property->description]) !!}
-
-        {{--            {!! Share::page(url($property->url,$property->description))->whatsapp()->facebook()->twitter()->telegram() !!}--}}
-
-        </p>
+ </p>
     </div>
 </div>

@@ -216,25 +216,26 @@
                                 <button class="btn btn-orange" type="submit">{{ __('Search') }}</button>
                             </div>
 
-                            <div class="advanced-search d-none d-sm-block">
+                            <div class="form-group">
+                                <div class="row">
+                                    <div class="col-md-3 col-sm-6 pr-md-1">
+                                        {!! Theme::partial('real-estate.filters.categories', compact('categories')) !!}
+                                    </div>
+                                    <div class="col-md-3 col-sm-6 px-md-1">
+                                        {!! Theme::partial('real-estate.filters.bedroom') !!}
+                                    </div>
+                                    <div class="col-md-3 col-sm-6 px-md-1">
+                                        {!! Theme::partial('real-estate.filters.bathroom') !!}
+                                    </div>
+                                    <div class="col-md-3 col-sm-6 pl-md-1">
+                                        {!! Theme::partial('real-estate.filters.floor') !!}
+                                    </div>
+                                </div>
+                            </div>
+                            {{--<div class="advanced-search d-none d-sm-block">
                                 <a href="#" class="advanced-search-toggler">{{ __('Advanced') }} <i class="fas fa-caret-down"></i></a>
                                 <div class="advanced-search-content property-advanced-search">
-                                    <div class="form-group">
-                                        <div class="row">
-                                            <div class="col-md-3 col-sm-6 pr-md-1">
-                                                {!! Theme::partial('real-estate.filters.categories', compact('categories')) !!}
-                                            </div>
-                                            <div class="col-md-3 col-sm-6 px-md-1">
-                                                {!! Theme::partial('real-estate.filters.bedroom') !!}
-                                            </div>
-                                            <div class="col-md-3 col-sm-6 px-md-1">
-                                                {!! Theme::partial('real-estate.filters.bathroom') !!}
-                                            </div>
-                                            <div class="col-md-3 col-sm-6 pl-md-1">
-                                                {!! Theme::partial('real-estate.filters.floor') !!}
-                                            </div>
-                                        </div>
-                                    </div>
+
                                 </div>
 
                                 <div class="advanced-search-content project-advanced-search">
@@ -249,13 +250,17 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div>--}}
+
+
+
                         </div>
                         <div class="listsuggest">
 
                         </div>
                     </form>
             </div>
+
         </div>
         </div>
     @endif
