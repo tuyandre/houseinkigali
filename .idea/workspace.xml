@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d60da99c-3b5c-4af7-900d-16ad72b78f27" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/themes/flex-home/partials/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/platform/themes/flex-home/partials/header.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/platform/themes/flex-home/partials/real-estate/properties/item.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/platform/themes/flex-home/partials/real-estate/properties/item.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/themes/flex-home/partials/short-codes/properties-for-rent.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/platform/themes/flex-home/partials/short-codes/properties-for-rent.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/themes/flex-home/partials/short-codes/properties-for-sale.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/platform/themes/flex-home/partials/short-codes/properties-for-sale.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/themes/flex-home/views/real-estate/properties.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/platform/themes/flex-home/views/real-estate/properties.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/themes/flex-home/views/real-estate/property-category.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/platform/themes/flex-home/views/real-estate/property-category.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/themes/flex-home/views/real-estate/property.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/platform/themes/flex-home/views/real-estate/property.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,8 +21,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/platform/themes/flex-home/partials/real-estate/properties/item.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+            <state relative-caret-position="219">
+              <caret line="149" column="8" selection-start-line="149" selection-start-column="8" selection-end-line="149" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -417,12 +410,12 @@
       <workItem from="1635775540711" duration="6532000" />
       <workItem from="1636505951376" duration="2516000" />
       <workItem from="1636876506859" duration="15550000" />
-      <workItem from="1637004866025" duration="3413000" />
+      <workItem from="1637004866025" duration="4385000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39841000" />
+    <option name="totallyTimeSpent" value="40813000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -746,8 +739,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/platform/themes/flex-home/partials/real-estate/properties/item.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        <state relative-caret-position="219">
+          <caret line="149" column="8" selection-start-line="149" selection-start-column="8" selection-end-line="149" selection-end-column="8" />
         </state>
       </provider>
     </entry>
