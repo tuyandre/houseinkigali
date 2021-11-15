@@ -28,6 +28,7 @@
                                                 </div>
                                             </div>
                                             <div class="status">{!! $property->status->toHtml() !!}</div>
+{{--                                            <div class="status">{!! $property->status->toHtml() !!}</div>--}}
                                         </div>
 
                                         <div class="description">
