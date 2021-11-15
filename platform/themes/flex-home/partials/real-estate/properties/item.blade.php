@@ -6,7 +6,7 @@
         display: inline !important;
         /*position: relative !important;*/
     }
-    #social-links ul li a{
+    #social-links  a{
         padding: 2px !important;
         border: 1px solid #ccc !important;
         margin: 2px !important;
@@ -140,7 +140,12 @@
     <div class="description">
        {{-- <a href="#" class="text-orange heart add-to-wishlist" data-id="{{ $property->id }}"
            title="{{ __('I care about this property!!!') }}"><i class="far fa-heart"></i></a>--}}
-        {!! Share::page(url($property->url,$property->description))->whatsapp()!!}
+{{--        {!! Share::page(url($property->url,$property->description))->whatsapp()!!}--}}
+
+        <div id="social-links">
+                    <a target="_blank" href="https://wa.me/?text={{$property->url}}" class="social-button " id="" title="" rel="">
+                        <span class="fab fa-whatsapp"></span></a>
+        </div>
         <a href="#" class="text-orange heart add-to-wishlist" data-id="{{ $property->id }}"
            title="{{ __('I care about this property!!!') }}"><i class="far fa-heart"></i></a>
 
@@ -150,6 +155,7 @@
 {{--            <p class="dia_chi"><i class="fas fa-map-marker-alt"></i> {{ $property->city->name }},--}}
 {{--                {{ $property->city->state->name }}</p>--}}
         </a>
+{{--        {{ Share::page(url($property->url,$property->description))->whatsapp()}}--}}
 <hr>
         <p class="threemt bold500">
 
