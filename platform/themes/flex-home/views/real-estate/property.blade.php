@@ -14,20 +14,20 @@
         <p class="addresshouse"><i class="fas fa-map-marker-alt"></i> {{ $property->city_name }}</p>
         <p class="pricehouse"> {{ $property->price_html }} {!! $property->status_html !!}</p>
 
-        @if ($property->features->count())
-            <div class="row">
-                <div class="col-sm-12">
-                    <h5 class="headifhouse">{{ __('Features') }}</h5>
-                    <div class="row">
-                        @foreach($property->features as $feature)
-                            <div class="col-sm-4">
-                                <p><i class="@if ($feature->icon) {{ $feature->icon }} @else fas fa-check @endif text-orange text0i"></i>  {{ $feature->name }}</p>
-                            </div>
-                        @endforeach
-                    </div>
-                </div>
-            </div>
-        @endif
+{{--        @if ($property->features->count())--}}
+{{--            <div class="row">--}}
+{{--                <div class="col-sm-12">--}}
+{{--                    <h5 class="headifhouse">{{ __('Features') }}</h5>--}}
+{{--                    <div class="row">--}}
+{{--                        @foreach($property->features as $feature)--}}
+{{--                            <div class="col-sm-4">--}}
+{{--                                <p><i class="@if ($feature->icon) {{ $feature->icon }} @else fas fa-check @endif text-orange text0i"></i>  {{ $feature->name }}</p>--}}
+{{--                            </div>--}}
+{{--                        @endforeach--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        @endif--}}
         <br>
 
 

@@ -17,8 +17,8 @@
     /* hovering text */
 
     .image {
-        position: relative;
-        width: 400px;
+        position: relative !important;
+        width: 400px !important;
     }
 
     .image__img {
@@ -27,7 +27,7 @@
     }
 
     .image__overlay {
-        position: absolute;
+        position: absolute !important;
         top: 0;
         left: 0;
         width: 100%;
@@ -51,16 +51,16 @@
     }
 
     .image__overlay > * {
-        transform: translateY(20px);
+        transform: translateY(20px) !important;
         transition: transform 0.25s;
     }
 
     .image__overlay:hover {
-        opacity: 1;
+        opacity: 1 !important;
     }
 
     .image__overlay:hover > * {
-        transform: translateY(0);
+        transform: translateY(0) !important;
     }
 
     .image__title {
@@ -116,7 +116,13 @@
 {{--            </div>--}}
 
             <div class="media-count-wrapper">
-                {!! $property->status->toHtml() !!}
+                @if($property->status=="selling")
+                <span class="label-success status-label">SELL </span>
+                @else
+                    <span class="label-info status-label">RENT</span>
+                    @endif
+{{--                {{ $property->status->toHtml() }}--}}
+{{--                {{$property->status}}--}}
             </div>
 
 
@@ -142,19 +148,19 @@
            title="{{ __('I care about this property!!!') }}"><i class="far fa-heart"></i></a>--}}
 {{--        {!! Share::page(url($property->url,$property->description))->whatsapp()!!}--}}
 
-        <div id="social-links">
-                    <a target="_blank" href="https://wa.me/?text={{$property->url}}" class="social-button " id="" title="" rel="">
-                        <span class="fab fa-whatsapp"></span></a>
+{{--        <p class="threemt bold500" >--}}
+        <div class="row">
+            <div class="col-md-10"><a href="{{ $property->url }}">
+                    <h5 style="margin: 0;padding: 0"> {{ $property->name }}</h5>
+                </a></div>
+            <div class="col-md-2">
+                <a target="_blank" href="https://wa.me/?text={{$property->url}}" class="social-button" id="" title="" rel="">
+                    <span class="fab fa-whatsapp"></span></a>
+            </div>
         </div>
-        <a href="#" class="text-orange heart add-to-wishlist" data-id="{{ $property->id }}"
-           title="{{ __('I care about this property!!!') }}"><i class="far fa-heart"></i></a>
 
-        <hr>
-        <a href="{{ $property->url }}">
-            <h5>{{ $property->name }}</h5>
-{{--            <p class="dia_chi"><i class="fas fa-map-marker-alt"></i> {{ $property->city->name }},--}}
-{{--                {{ $property->city->state->name }}</p>--}}
-        </a>
+
+{{--        </p>--}}
 {{--        {{ Share::page(url($property->url,$property->description))->whatsapp()}}--}}
 <hr>
         <p class="threemt bold500">
