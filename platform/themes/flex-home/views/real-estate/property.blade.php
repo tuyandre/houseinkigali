@@ -13,46 +13,80 @@
         <h1 class="titlehouse">{{ $property->name }}</h1>
         <p class="addresshouse"><i class="fas fa-map-marker-alt"></i> {{ $property->city_name }}</p>
         <p class="pricehouse"> {{ $property->price_html }} {!! $property->status_html !!}</p>
-
-{{--        @if ($property->features->count())--}}
-{{--            <div class="row">--}}
-{{--                <div class="col-sm-12">--}}
-{{--                    <h5 class="headifhouse">{{ __('Features') }}</h5>--}}
-{{--                    <div class="row">--}}
-{{--                        @foreach($property->features as $feature)--}}
-{{--                            <div class="col-sm-4">--}}
-{{--                                <p><i class="@if ($feature->icon) {{ $feature->icon }} @else fas fa-check @endif text-orange text0i"></i>  {{ $feature->name }}</p>--}}
-{{--                            </div>--}}
-{{--                        @endforeach--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-{{--            </div>--}}
-{{--        @endif--}}
         <br>
 
 
         <div class="row">
             <div class="col-md-8">
+                <div class="row pt-3">
+                    <div class="col-sm-12">
+                        <h5 class="headifhouse">{{ __('Overview') }}</h5>
+                        <div class="row py-2">
+                            <div class="col-sm-12">
+                                <table class="table table-striped table-bordered">
+                                    @if ($property->categories()->count())
+                                        <tr>
+                                            <td>{{ __('Category') }}</td>
+                                            <td>
+                                                <strong>{{ implode(', ', $property->categories()->pluck('name')->all()) }}</strong>
+                                            </td>
+                                        </tr>
+                                    @endif
+                                    {{--                                        @if ($property->square)--}}
+                                    {{--                                            <tr>--}}
+                                    {{--                                                <td>{{ __('Square') }}</td>--}}
+                                    {{--                                                <td><strong>{{ $property->square_text }}</strong></td>--}}
+                                    {{--                                            </tr>--}}
+                                    {{--                                        @endif--}}
+                                    @if ($property->number_bedroom)
+                                        <tr>
+                                            <td>{{ __('Number of bedrooms') }}</td>
+                                            <td><strong>{{ number_format($property->number_bedroom) }}</strong></td>
+                                        </tr>
+                                    @endif
+                                    @if ($property->number_bathroom)
+                                        <tr>
+                                            <td>{{ __('Number of bathrooms') }}</td>
+                                            <td><strong>{{ number_format($property->number_bathroom) }}</strong></td>
+                                        </tr>
+                                    @endif
+                                    @if ($property->number_floor)
+                                        <tr>
+                                            <td>{{ __('Number of floors') }}</td>
+                                            <td><strong>{{ number_format($property->number_floor) }}</strong></td>
+                                        </tr>
+                                    @endif
+                                    <tr>
+                                        <td>{{ __('Price') }}</td>
+                                        <td><strong>{{ $property->price_html }}</strong></td>
+                                    </tr>
+
+                                    @if ($property->features->count())
+                                        @foreach($property->features as $feature)
+                                            <tr>
+                                                <td><i class="@if ($feature->icon) {{ $feature->icon }} @else fas fa-check @endif text-orange text0i"></i>  {{ $feature->name }}</td>
+                                                <td ><strong>YES</strong></td>
+                                            </tr>
+                                        @endforeach
+                                    @endif
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+
 
                 @if ($property->content)
                     <div class="row">
                         <div class="col-sm-12">
                             <h5 class="headifhouse">{{ __('Description') }}</h5>
                             {!! clean($property->content) !!}
-                        </div>
-                    </div>
-                @endif
-                @if ($property->features->count())
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <h5 class="headifhouse">{{ __('Features') }}</h5>
-                            <div class="row">
-                                @foreach($property->features as $feature)
-                                    <div class="col-sm-4">
-                                        <p><i class="@if ($feature->icon) {{ $feature->icon }} @else fas fa-check @endif text-orange text0i"></i>  {{ $feature->name }}</p>
-                                    </div>
-                                @endforeach
-                            </div>
                         </div>
                     </div>
                 @endif
@@ -70,6 +104,9 @@
                             </div>
                         </div>
                     </div>
+                @endif
+                @if ($property->video_url)
+                    {!! Theme::partial('real-estate.elements.video', ['object' => $property, 'title' => __('Property video')]) !!}
                 @endif
                 @if ($property->project_id && $project = $property->project)
                     <div class="row pb-3">
@@ -98,61 +135,13 @@
                     </div>
                 @endif
                 <br>
-                    <div class="row pt-3">
-                        <div class="col-sm-12">
-                            <h5 class="headifhouse">{{ __('Overview') }}</h5>
-                            <div class="row py-2">
-                                <div class="col-sm-12">
-                                    <table class="table table-striped table-bordered">
-                                        @if ($property->categories()->count())
-                                            <tr>
-                                                <td>{{ __('Category') }}</td>
-                                                <td>
-                                                    <strong>{{ implode(', ', $property->categories()->pluck('name')->all()) }}</strong>
-                                                </td>
-                                            </tr>
-                                        @endif
-{{--                                        @if ($property->square)--}}
-{{--                                            <tr>--}}
-{{--                                                <td>{{ __('Square') }}</td>--}}
-{{--                                                <td><strong>{{ $property->square_text }}</strong></td>--}}
-{{--                                            </tr>--}}
-{{--                                        @endif--}}
-                                        @if ($property->number_bedroom)
-                                            <tr>
-                                                <td>{{ __('Number of bedrooms') }}</td>
-                                                <td><strong>{{ number_format($property->number_bedroom) }}</strong></td>
-                                            </tr>
-                                        @endif
-                                        @if ($property->number_bathroom)
-                                            <tr>
-                                                <td>{{ __('Number of bathrooms') }}</td>
-                                                <td><strong>{{ number_format($property->number_bathroom) }}</strong></td>
-                                            </tr>
-                                        @endif
-                                        @if ($property->number_floor)
-                                            <tr>
-                                                <td>{{ __('Number of floors') }}</td>
-                                                <td><strong>{{ number_format($property->number_floor) }}</strong></td>
-                                            </tr>
-                                        @endif
-                                        <tr>
-                                            <td>{{ __('Price') }}</td>
-                                            <td><strong>{{ $property->price_html }}</strong></td>
-                                        </tr>
-                                    </table>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+
                 @if ($property->latitude && $property->longitude)
                     {!! Theme::partial('real-estate.elements.traffic-map-modal', ['location' => $property->location . ', ' . $property->city_name]) !!}
                 @else
                     {!! Theme::partial('real-estate.elements.gmap-canvas', ['location' => $property->location]) !!}
                 @endif
-                @if ($property->video_url)
-                    {!! Theme::partial('real-estate.elements.video', ['object' => $property, 'title' => __('Property video')]) !!}
-                @endif
+
                 <br>
                 {!! Theme::partial('share', ['title' => __('Share this property'), 'description' => $property->description]) !!}
                 <div class="clearfix"></div>
