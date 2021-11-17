@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d60da99c-3b5c-4af7-900d-16ad72b78f27" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/themes/flex-home/partials/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/platform/themes/flex-home/partials/header.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/platform/themes/flex-home/partials/real-estate/properties/item.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/platform/themes/flex-home/partials/real-estate/properties/item.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/themes/flex-home/views/real-estate/property.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/platform/themes/flex-home/views/real-estate/property.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,8 +21,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/platform/themes/flex-home/partials/real-estate/properties/item.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="118" column="55" selection-start-line="118" selection-start-column="55" selection-end-line="118" selection-end-column="55" />
+            <state relative-caret-position="442">
+              <caret line="156" column="69" selection-start-line="156" selection-start-column="69" selection-end-line="156" selection-end-column="69" />
               <folding>
                 <element signature="n#style#0;n#h5#0;n#a#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
               </folding>
@@ -603,12 +600,12 @@
       <workItem from="1636876506859" duration="15550000" />
       <workItem from="1637004866025" duration="4385000" />
       <workItem from="1637031968739" duration="554000" />
-      <workItem from="1637130348545" duration="8218000" />
+      <workItem from="1637130348545" duration="9136000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49585000" />
+    <option name="totallyTimeSpent" value="50503000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -978,8 +975,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/platform/themes/flex-home/partials/real-estate/properties/item.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="118" column="55" selection-start-line="118" selection-start-column="55" selection-end-line="118" selection-end-column="55" />
+        <state relative-caret-position="442">
+          <caret line="156" column="69" selection-start-line="156" selection-start-column="69" selection-end-line="156" selection-end-column="69" />
           <folding>
             <element signature="n#style#0;n#h5#0;n#a#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
           </folding>

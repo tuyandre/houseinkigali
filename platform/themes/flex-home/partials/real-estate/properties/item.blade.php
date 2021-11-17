@@ -117,9 +117,9 @@
 
             <div class="media-count-wrapper">
                 @if($property->status=="selling")
-                <span class="label-success status-label">SELL </span>
+                <span class="label-success status-label">FOR SELL </span>
                 @else
-                    <span class="label-info status-label">RENT</span>
+                    <span class="label-info status-label">FOR RENT</span>
                     @endif
 {{--                {{ $property->status->toHtml() }}--}}
 {{--                {{$property->status}}--}}
@@ -154,7 +154,7 @@
                     <h5 style="margin: 0;padding: 0"> {{ $property->name }}</h5>
                 </a></div>
             <div class="col-md-2">
-                <a target="_blank" href="https://wa.me/?text={{$property->url}}" class="social-button" id="" title="" rel="">
+                <a target="_blank" href="https://wa.me/+250786389554/?text={{$property->url}}" class="social-button" id="" title="" rel="">
                     <span class="fab fa-whatsapp"></span></a>
             </div>
         </div>
