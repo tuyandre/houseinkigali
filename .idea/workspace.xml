@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d60da99c-3b5c-4af7-900d-16ad72b78f27" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/platform/themes/flex-home/partials/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/platform/themes/flex-home/partials/header.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/platform/themes/flex-home/partials/real-estate/properties/item.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/platform/themes/flex-home/partials/real-estate/properties/item.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/themes/flex-home/views/real-estate/property.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/platform/themes/flex-home/views/real-estate/property.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,11 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/platform/themes/flex-home/partials/real-estate/properties/item.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="156" column="69" selection-start-line="156" selection-start-column="69" selection-end-line="156" selection-end-column="69" />
+            <state relative-caret-position="289">
+              <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="19" selection-end-column="7" />
               <folding>
                 <element signature="n#style#0;n#h5#0;n#a#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
               </folding>
@@ -42,8 +44,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/platform/themes/flex-home/partials/header.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="184" lean-forward="true" selection-start-line="184" selection-end-line="184" />
+            <state relative-caret-position="104">
+              <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
               <folding>
                 <element signature="e#3206#3212#0#HTML" expanded="true" />
                 <element signature="n#style#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -52,6 +54,15 @@
                 <element signature="n#style#0;n#form#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#nav#0;n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_ide_helper.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15005">
+              <caret line="26613" column="18" selection-start-line="26613" selection-start-column="18" selection-end-line="26613" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -68,7 +79,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/platform/plugins/real-estate/src/Models/Property.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4239">
+            <state relative-caret-position="-4225">
               <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
             </state>
           </provider>
@@ -125,23 +136,23 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/platform/themes/flex-home/views/real-estate/property.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="63" selection-start-line="14" selection-start-column="63" selection-end-line="14" selection-end-column="63" />
+            <state relative-caret-position="266">
+              <caret line="42" column="63" lean-forward="true" selection-start-line="42" selection-start-column="63" selection-end-line="42" selection-end-column="63" />
+              <folding>
+                <element signature="n#div#1;n#div#1;n#div#1;n#main#0;n#!!top" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/platform/themes/flex-home/views/headerTest.blade.php">
+        <entry file="file://$PROJECT_DIR$/platform/themes/flex-home/views/testItem.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-331">
-              <caret line="221" column="10" selection-start-line="221" selection-start-column="10" selection-end-line="221" selection-end-column="10" />
+            <state relative-caret-position="389">
+              <caret line="63" column="5" lean-forward="true" selection-start-line="52" selection-start-column="4" selection-end-line="63" selection-end-column="5" />
               <folding>
-                <element signature="e#3207#3213#0#HTML" expanded="true" />
-                <element signature="n#style#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#8560#8566#0#HTML" expanded="true" />
-                <element signature="n#style#0;n#form#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#nav#0;n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#0;n#!!top" />
+                <element signature="n#style#0;n#h5#0;n#a#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -180,9 +191,10 @@
         <option value="$PROJECT_DIR$/platform/themes/flex-home/views/real-estate/properties.blade.php" />
         <option value="$PROJECT_DIR$/platform/themes/flex-home/partials/short-codes/properties-for-rent.blade.php" />
         <option value="$PROJECT_DIR$/platform/themes/flex-home/views/headerTest.blade.php" />
-        <option value="$PROJECT_DIR$/platform/themes/flex-home/partials/header.blade.php" />
+        <option value="$PROJECT_DIR$/platform/themes/flex-home/views/testItem.blade.php" />
         <option value="$PROJECT_DIR$/platform/themes/flex-home/views/real-estate/property.blade.php" />
         <option value="$PROJECT_DIR$/platform/themes/flex-home/partials/real-estate/properties/item.blade.php" />
+        <option value="$PROJECT_DIR$/platform/themes/flex-home/partials/header.blade.php" />
       </list>
     </option>
   </component>
@@ -441,7 +453,66 @@
               <item name="houseinkigali" type="462c0819:PsiDirectoryNode" />
               <item name="platform" type="462c0819:PsiDirectoryNode" />
               <item name="packages" type="462c0819:PsiDirectoryNode" />
+              <item name="menu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="houseinkigali" type="b2602c69:ProjectViewProjectNode" />
+              <item name="houseinkigali" type="462c0819:PsiDirectoryNode" />
+              <item name="platform" type="462c0819:PsiDirectoryNode" />
+              <item name="packages" type="462c0819:PsiDirectoryNode" />
+              <item name="menu" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="houseinkigali" type="b2602c69:ProjectViewProjectNode" />
+              <item name="houseinkigali" type="462c0819:PsiDirectoryNode" />
+              <item name="platform" type="462c0819:PsiDirectoryNode" />
+              <item name="packages" type="462c0819:PsiDirectoryNode" />
+              <item name="menu" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="libraries" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="houseinkigali" type="b2602c69:ProjectViewProjectNode" />
+              <item name="houseinkigali" type="462c0819:PsiDirectoryNode" />
+              <item name="platform" type="462c0819:PsiDirectoryNode" />
+              <item name="packages" type="462c0819:PsiDirectoryNode" />
+              <item name="menu" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="houseinkigali" type="b2602c69:ProjectViewProjectNode" />
+              <item name="houseinkigali" type="462c0819:PsiDirectoryNode" />
+              <item name="platform" type="462c0819:PsiDirectoryNode" />
+              <item name="packages" type="462c0819:PsiDirectoryNode" />
+              <item name="menu" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="houseinkigali" type="b2602c69:ProjectViewProjectNode" />
+              <item name="houseinkigali" type="462c0819:PsiDirectoryNode" />
+              <item name="platform" type="462c0819:PsiDirectoryNode" />
+              <item name="packages" type="462c0819:PsiDirectoryNode" />
+              <item name="menu" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="partials" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="houseinkigali" type="b2602c69:ProjectViewProjectNode" />
+              <item name="houseinkigali" type="462c0819:PsiDirectoryNode" />
+              <item name="platform" type="462c0819:PsiDirectoryNode" />
+              <item name="packages" type="462c0819:PsiDirectoryNode" />
               <item name="shortcode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="houseinkigali" type="b2602c69:ProjectViewProjectNode" />
+              <item name="houseinkigali" type="462c0819:PsiDirectoryNode" />
+              <item name="platform" type="462c0819:PsiDirectoryNode" />
+              <item name="packages" type="462c0819:PsiDirectoryNode" />
+              <item name="shortcode" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="houseinkigali" type="b2602c69:ProjectViewProjectNode" />
@@ -459,6 +530,40 @@
               <item name="shortcode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="View" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="houseinkigali" type="b2602c69:ProjectViewProjectNode" />
+              <item name="houseinkigali" type="462c0819:PsiDirectoryNode" />
+              <item name="platform" type="462c0819:PsiDirectoryNode" />
+              <item name="packages" type="462c0819:PsiDirectoryNode" />
+              <item name="theme" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="houseinkigali" type="b2602c69:ProjectViewProjectNode" />
+              <item name="houseinkigali" type="462c0819:PsiDirectoryNode" />
+              <item name="platform" type="462c0819:PsiDirectoryNode" />
+              <item name="packages" type="462c0819:PsiDirectoryNode" />
+              <item name="theme" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="houseinkigali" type="b2602c69:ProjectViewProjectNode" />
+              <item name="houseinkigali" type="462c0819:PsiDirectoryNode" />
+              <item name="platform" type="462c0819:PsiDirectoryNode" />
+              <item name="packages" type="462c0819:PsiDirectoryNode" />
+              <item name="theme" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="houseinkigali" type="b2602c69:ProjectViewProjectNode" />
+              <item name="houseinkigali" type="462c0819:PsiDirectoryNode" />
+              <item name="platform" type="462c0819:PsiDirectoryNode" />
+              <item name="packages" type="462c0819:PsiDirectoryNode" />
+              <item name="theme" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="partials" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="houseinkigali" type="b2602c69:ProjectViewProjectNode" />
@@ -512,25 +617,6 @@
               <item name="platform" type="462c0819:PsiDirectoryNode" />
               <item name="themes" type="462c0819:PsiDirectoryNode" />
               <item name="flex-home" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="houseinkigali" type="b2602c69:ProjectViewProjectNode" />
-              <item name="houseinkigali" type="462c0819:PsiDirectoryNode" />
-              <item name="platform" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="flex-home" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="houseinkigali" type="b2602c69:ProjectViewProjectNode" />
-              <item name="houseinkigali" type="462c0819:PsiDirectoryNode" />
-              <item name="platform" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="flex-home" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -541,6 +627,23 @@
               <item name="flex-home" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="real-estate" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="houseinkigali" type="b2602c69:ProjectViewProjectNode" />
+              <item name="houseinkigali" type="462c0819:PsiDirectoryNode" />
+              <item name="platform" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="flex-home" type="462c0819:PsiDirectoryNode" />
+              <item name="widgets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="houseinkigali" type="b2602c69:ProjectViewProjectNode" />
+              <item name="houseinkigali" type="462c0819:PsiDirectoryNode" />
+              <item name="platform" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="flex-home" type="462c0819:PsiDirectoryNode" />
+              <item name="widgets" type="462c0819:PsiDirectoryNode" />
+              <item name="custom-menu" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="houseinkigali" type="b2602c69:ProjectViewProjectNode" />
@@ -600,12 +703,12 @@
       <workItem from="1636876506859" duration="15550000" />
       <workItem from="1637004866025" duration="4385000" />
       <workItem from="1637031968739" duration="554000" />
-      <workItem from="1637130348545" duration="9136000" />
+      <workItem from="1637130348545" duration="14596000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50503000" />
+    <option name="totallyTimeSpent" value="55963000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -681,12 +784,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/platform/themes/flex-home/partials/real-estate/projects/items.blade.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platform/themes/flex-home/partials/main-menu.blade.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/platform/themes/flex-home/partials/additional-property-fields.blade.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -709,13 +806,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_ide_helper.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="18104" column="34" lean-forward="true" selection-start-line="18104" selection-start-column="34" selection-end-line="18104" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -836,46 +926,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/platform/themes/flex-home/views/headerTest.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-331">
-          <caret line="221" column="10" selection-start-line="221" selection-start-column="10" selection-end-line="221" selection-end-column="10" />
-          <folding>
-            <element signature="e#3207#3213#0#HTML" expanded="true" />
-            <element signature="n#style#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#8560#8566#0#HTML" expanded="true" />
-            <element signature="n#style#0;n#form#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#nav#0;n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platform/themes/flex-home/partials/header.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="184" lean-forward="true" selection-start-line="184" selection-end-line="184" />
-          <folding>
-            <element signature="e#3206#3212#0#HTML" expanded="true" />
-            <element signature="n#style#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#8559#8565#0#HTML" expanded="true" />
-            <element signature="n#style#0;n#form#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#nav#0;n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/platform/themes/flex-home/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platform/plugins/real-estate/src/Models/Property.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4239">
-          <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -952,13 +1006,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/platform/themes/flex-home/views/real-estate/property.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="63" selection-start-line="14" selection-start-column="63" selection-end-line="14" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/platform/themes/flex-home/src/Http/Controllers/FlexHomeController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -973,13 +1020,84 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/platform/themes/flex-home/views/testItem.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="63" column="5" lean-forward="true" selection-start-line="52" selection-start-column="4" selection-end-line="63" selection-end-column="5" />
+          <folding>
+            <element signature="n#div#0;n#!!top" />
+            <element signature="n#style#0;n#h5#0;n#a#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platform/themes/flex-home/views/headerTest.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-331">
+          <caret line="221" column="10" selection-start-line="221" selection-start-column="10" selection-end-line="221" selection-end-column="10" />
+          <folding>
+            <element signature="e#3207#3213#0#HTML" expanded="true" />
+            <element signature="n#style#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#8560#8566#0#HTML" expanded="true" />
+            <element signature="n#style#0;n#form#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#nav#0;n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platform/packages/theme/resources/views/partials/header.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platform/plugins/real-estate/src/Models/Property.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4225">
+          <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platform/themes/flex-home/views/real-estate/property.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="42" column="63" lean-forward="true" selection-start-line="42" selection-start-column="63" selection-end-line="42" selection-end-column="63" />
+          <folding>
+            <element signature="n#div#1;n#div#1;n#div#1;n#main#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/platform/themes/flex-home/partials/real-estate/properties/item.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="156" column="69" selection-start-line="156" selection-start-column="69" selection-end-line="156" selection-end-column="69" />
+        <state relative-caret-position="289">
+          <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="19" selection-end-column="7" />
           <folding>
             <element signature="n#style#0;n#h5#0;n#a#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platform/themes/flex-home/partials/header.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+          <folding>
+            <element signature="e#3206#3212#0#HTML" expanded="true" />
+            <element signature="n#style#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#8559#8565#0#HTML" expanded="true" />
+            <element signature="n#style#0;n#form#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#nav#0;n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_ide_helper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15005">
+          <caret line="26613" column="18" selection-start-line="26613" selection-start-column="18" selection-end-line="26613" selection-end-column="18" />
         </state>
       </provider>
     </entry>

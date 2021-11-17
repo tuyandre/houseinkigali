@@ -19,7 +19,6 @@
             --primary-font: '{{ theme_option('primary_font', 'Nunito Sans') }}';
         }
     </style>
-
     {!! Theme::header() !!}
 </head>
 <body @if (BaseHelper::siteLanguageDirection() == 'rtl') dir="rtl" @endif>
