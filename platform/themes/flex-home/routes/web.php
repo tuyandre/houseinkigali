@@ -4,6 +4,7 @@ use Botble\RealEstate\Models\Project;
 use Botble\RealEstate\Models\Property;
 
 // Custom routes
+
 Route::group(['namespace' => 'Theme\FlexHome\Http\Controllers', 'middleware' => ['web', 'core']], function () {
     Route::group(apply_filters(BASE_FILTER_GROUP_PUBLIC_ROUTE, []), function () {
         Route::get(SlugHelper::getPrefix(Project::class, 'projects') . '/city/{slug?}', 'FlexHomeController@getProjectsByCity')
@@ -11,6 +12,8 @@ Route::group(['namespace' => 'Theme\FlexHome\Http\Controllers', 'middleware' => 
 
         Route::get(SlugHelper::getPrefix(Property::class, 'properties') . '/city/{slug?}', 'FlexHomeController@getPropertiesByCity')
             ->name('public.properties-by-city');
+        Route::get(SlugHelper::getPrefix(Property::class, 'welcome') . '/city/{slug?}', 'FlexHomeController@getAllByCity')
+            ->name('public.welcome-by-city');
 
         Route::get('agents', 'FlexHomeController@getAgents')->name('public.agents');
         Route::get('agents/{username}', 'FlexHomeController@getAgent')->name('public.agent');

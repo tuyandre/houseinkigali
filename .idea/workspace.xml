@@ -2,11 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d60da99c-3b5c-4af7-900d-16ad72b78f27" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/platform/themes/flex-home/views/real-estate/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/houseinkigali.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/houseinkigali.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/packages/theme/routes/public.php" beforeDir="false" afterPath="$PROJECT_DIR$/platform/packages/theme/routes/public.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/plugins/real-estate/helpers/currencies.php" beforeDir="false" afterPath="$PROJECT_DIR$/platform/plugins/real-estate/helpers/currencies.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/plugins/real-estate/src/Http/Controllers/PublicController.php" beforeDir="false" afterPath="$PROJECT_DIR$/platform/plugins/real-estate/src/Http/Controllers/PublicController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/themes/flex-home/layouts/homepage.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/platform/themes/flex-home/layouts/homepage.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/platform/themes/flex-home/partials/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/platform/themes/flex-home/partials/header.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/platform/themes/flex-home/partials/real-estate/properties/item.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/platform/themes/flex-home/partials/real-estate/properties/item.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/themes/flex-home/views/real-estate/property.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/platform/themes/flex-home/views/real-estate/property.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/themes/flex-home/partials/real-estate/properties/items.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/platform/themes/flex-home/partials/real-estate/properties/items.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/themes/flex-home/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/platform/themes/flex-home/public/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/themes/flex-home/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/platform/themes/flex-home/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/themes/flex-home/src/Http/Controllers/FlexHomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/platform/themes/flex-home/src/Http/Controllers/FlexHomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/themes/flex-home/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/platform/themes/flex-home/views/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/themes/flex-home/views/real-estate/properties.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/platform/themes/flex-home/views/real-estate/properties.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/themes/flex-home/views/real-estate/property-category.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/platform/themes/flex-home/views/real-estate/property-category.blade.php" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,151 +28,10 @@
   </component>
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/platform/themes/flex-home/partials/real-estate/properties/item.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="19" selection-end-column="7" />
-              <folding>
-                <element signature="n#style#0;n#h5#0;n#a#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/platform/themes/flex-home/partials/short-codes/properties-for-rent.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="105" selection-start-line="10" selection-start-column="105" selection-end-line="10" selection-end-column="105" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/platform/themes/flex-home/partials/header.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
-              <folding>
-                <element signature="e#3206#3212#0#HTML" expanded="true" />
-                <element signature="n#style#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="e#8559#8565#0#HTML" expanded="true" />
-                <element signature="n#style#0;n#form#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#nav#0;n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_ide_helper.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15005">
-              <caret line="26613" column="18" selection-start-line="26613" selection-start-column="18" selection-end-line="26613" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/platform/themes/flex-home/routes/web.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/platform/plugins/real-estate/src/Models/Property.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4225">
-              <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/platform/themes/flex-home/src/Http/Controllers/FlexHomeController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="183" column="17" lean-forward="true" selection-start-line="183" selection-start-column="17" selection-end-line="183" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/platform/plugins/real-estate/src/Enums/PropertyTypeEnum.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="28" column="77" lean-forward="true" selection-start-line="28" selection-start-column="77" selection-end-line="28" selection-end-column="103" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/platform/packages/shortcode/src/View/View.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1046">
-              <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/platform/packages/theme/src/Http/Controllers/PublicController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-873">
-              <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/platform/themes/flex-home/views/real-estate/properties.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="80" selection-start-line="12" selection-start-column="80" selection-end-line="12" selection-end-column="80" />
-              <folding>
-                <element signature="e#1159#3136#0#HTML" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/platform/themes/flex-home/views/real-estate/property.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="42" column="63" lean-forward="true" selection-start-line="42" selection-start-column="63" selection-end-line="42" selection-end-column="63" />
-              <folding>
-                <element signature="n#div#1;n#div#1;n#div#1;n#main#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/platform/themes/flex-home/views/testItem.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="63" column="5" lean-forward="true" selection-start-line="52" selection-start-column="4" selection-end-line="63" selection-end-column="5" />
-              <folding>
-                <element signature="n#div#0;n#!!top" />
-                <element signature="n#style#0;n#h5#0;n#a#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -413,6 +286,7 @@
     <option name="width" value="1026" />
     <option name="height" value="576" />
   </component>
+  <component name="ProjectId" id="22Yo3X5oVJtv6TcNVFAmrAET5RI" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -658,27 +532,21 @@
       <pane id="PackagesPane" />
     </panes>
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/demo/demo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="show.migrate.to.gradle.popup" value="false" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -686,6 +554,7 @@
       <method v="2" />
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -704,6 +573,7 @@
       <workItem from="1637004866025" duration="4385000" />
       <workItem from="1637031968739" duration="554000" />
       <workItem from="1637130348545" duration="14596000" />
+      <workItem from="1640023688641" duration="23166000" />
     </task>
     <servers />
   </component>
@@ -781,7 +651,18 @@
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/platform/themes/flex-home/partials/additional-property-fields.blade.php">

@@ -3,6 +3,7 @@
         display: block;
         width: 100%;
     }
+
     .image__overlay_item > * {
         transform: translateY(20px) !important;
         transition: transform 0.25s;
@@ -69,11 +70,14 @@
         </div>
 
         <div class="image__overlay_item">
+{{--            <a href="{{ $property->url }}" style="color: cadetblue">--}}
             <p class="image__description" >
                 {{ $property->name }}<br> It is featured with {{$property->number_bedroom}} bedrooms,
                 {{ $property->number_bathroom }} bathroom,{{ $property->description }}
             </p>
+{{--            </a>--}}
         </div>
+
     </div>
 
 

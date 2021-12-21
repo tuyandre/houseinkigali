@@ -1,3 +1,5 @@
+
+
 <div id="loading">
     <div class="half-circle-spinner">
         <div class="circle circle-1"></div>

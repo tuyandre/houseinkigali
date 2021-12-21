@@ -126,7 +126,48 @@ class FlexHomeController extends PublicController
         return Theme::scope('real-estate.properties', compact('properties', 'categories'))
             ->render();
     }
+    public function getAllByCity(
+        string $slug,
+        Request $request,
+        PropertyInterface $propertyRepository,
+        CityInterface $cityRepository
+    ) {
+        $filters = [
+            'city' => $slug,
+        ];
 
+        $city = $cityRepository->getFirstBy(compact('slug'));
+
+        if (!$city) {
+            abort(404);
+        }
+
+        SeoHelper::setTitle(__('Properties in :city', ['city' => $city->name]));
+
+        do_action(BASE_ACTION_PUBLIC_RENDER_SINGLE, CITY_MODULE_SCREEN_NAME, $city);
+
+        Theme::breadcrumb()
+            ->add(__('Home'), route('public.indexb'))
+            ->add(SeoHelper::getTitle(), route('public.welcome-by-city', $city->slug));
+
+        $params = [
+            'paginate' => [
+                'per_page'      => (int)theme_option('number_of_properties_per_page', 12),
+                'current_paged' => (int)$request->input('page', 1),
+            ],
+            'order_by' => ['re_properties.created_at' => 'DESC'],
+        ];
+
+        $properties = $propertyRepository->getProperties($filters, $params);
+
+        $categories = get_property_categories([
+            'indent'     => '↳',
+            'conditions' => ['status' => BaseStatusEnum::PUBLISHED],
+        ]);
+
+        return Theme::scope('real-estate.welcome', compact('properties', 'categories'))
+            ->render();
+    }
     /**
      * @param Request $request
      * @param BaseHttpResponse $response
