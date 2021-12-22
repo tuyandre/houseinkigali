@@ -1,41 +1,4 @@
-<style>
-    .img_item {
-        display: block;
-        width: 100%;
-    }
 
-    .image__overlay_item > * {
-        transform: translateY(20px) !important;
-        transition: transform 0.25s;
-    }
-
-    .image__overlay_item:hover {
-        opacity: 1 !important;
-    }
-
-    .image__overlay:hover  image__overlay_item:hover> * {
-        transform: translateY(0) !important;
-    }
-    .img_item:hover + image__overlay_item{
-        display: block;
-    }
-    .image__overlay_item {
-        position: absolute !important;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: rgba(0, 0, 0, 0.6);
-        color: #ffffff;
-        font-family: 'Quicksand', sans-serif;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        opacity: 0;
-        transition: opacity 0.25s;
-    }
-
-</style>
 
 
 
@@ -45,7 +8,7 @@
         <div class="blii">
 
 
-            <div class="img img_item">
+            <div class="img img_item" >
 
                 <img class="thumb"
                      data-src="{{ RvMedia::getImageUrl($property->image, 'small', false, RvMedia::getDefaultImage()) }}"
@@ -58,8 +21,10 @@
             <div class="media-count-wrapper">
                 @if($property->status=="selling")
                     <span class="label-success status-label">FOR SALE </span>
-                @else
+                @elseif($property->status=="renting")
                     <span class="label-info status-label">FOR RENT</span>
+                @else
+                    <span class="label-danger status-label" style="text-transform: uppercase">{{$property->status}}</span>
                 @endif
             </div>
 
@@ -69,13 +34,13 @@
            </ul>
         </div>
 
-        <div class="image__overlay_item">
-{{--            <a href="{{ $property->url }}" style="color: cadetblue">--}}
-            <p class="image__description" >
-                {{ $property->name }}<br> It is featured with {{$property->number_bedroom}} bedrooms,
-                {{ $property->number_bathroom }} bathroom,{{ $property->description }}
-            </p>
-{{--            </a>--}}
+        <div class="image__overlay_item" id="phone_double_click"  data-url="{{$property->url}}">
+            <a href="{{ $property->url }}" style="color: white; text-decoration: none">
+            <span class="image__description" >
+               {{substr($property->name,0,30)}}...It is featured with {{$property->number_bedroom}} bedrooms,
+                {{ $property->number_bathroom }} bathroom and IS  {{ $property->category->name }}
+            </span>
+            </a>
         </div>
 
     </div>
@@ -115,3 +80,11 @@
         </p>
     </div>
 </div>
+<script>
+
+    document.getElementById("phone_double_click").addEventListener("dblclick", function() {
+        alert("Hello World!");
+    });
+
+
+</script>

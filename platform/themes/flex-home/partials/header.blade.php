@@ -19,7 +19,45 @@
             --primary-font: '{{ theme_option('primary_font', 'Nunito Sans') }}';
         }
     </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <style>
+        .img_item {
+            display: block;
+            width: 100%;
+        }
 
+        .image__overlay_item > * {
+            transform: translateY(20px) !important;
+            transition: transform 0.25s;
+        }
+
+        .image__overlay_item:hover {
+            opacity: 1 !important;
+        }
+
+        .image__overlay:hover  image__overlay_item:hover> * {
+            transform: translateY(0) !important;
+        }
+        .img_item:hover + image__overlay_item{
+            display: block;
+        }
+        .image__overlay_item {
+            position: absolute !important;
+            top: -20px;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.6);
+            color: #ffffff;
+            font-family: 'Quicksand', sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            opacity: 0;
+            transition: opacity 0.25s;
+        }
+
+    </style>
     {!! Theme::header() !!}
 </head>
 <body @if (BaseHelper::siteLanguageDirection() == 'rtl') dir="rtl" @endif>

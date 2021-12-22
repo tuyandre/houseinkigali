@@ -2,24 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d60da99c-3b5c-4af7-900d-16ad72b78f27" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/platform/themes/flex-home/views/real-estate/welcome.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/houseinkigali.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/houseinkigali.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/packages/theme/routes/public.php" beforeDir="false" afterPath="$PROJECT_DIR$/platform/packages/theme/routes/public.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/plugins/real-estate/helpers/currencies.php" beforeDir="false" afterPath="$PROJECT_DIR$/platform/plugins/real-estate/helpers/currencies.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/plugins/real-estate/src/Http/Controllers/PublicController.php" beforeDir="false" afterPath="$PROJECT_DIR$/platform/plugins/real-estate/src/Http/Controllers/PublicController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/themes/flex-home/layouts/homepage.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/platform/themes/flex-home/layouts/homepage.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/themes/flex-home/partials/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/platform/themes/flex-home/partials/footer.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/platform/themes/flex-home/partials/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/platform/themes/flex-home/partials/header.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/platform/themes/flex-home/partials/real-estate/properties/item.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/platform/themes/flex-home/partials/real-estate/properties/item.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/themes/flex-home/partials/real-estate/properties/items.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/platform/themes/flex-home/partials/real-estate/properties/items.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/themes/flex-home/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/platform/themes/flex-home/public/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/themes/flex-home/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/platform/themes/flex-home/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/themes/flex-home/src/Http/Controllers/FlexHomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/platform/themes/flex-home/src/Http/Controllers/FlexHomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/themes/flex-home/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/platform/themes/flex-home/views/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/themes/flex-home/views/real-estate/properties.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/platform/themes/flex-home/views/real-estate/properties.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/themes/flex-home/views/real-estate/property-category.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/platform/themes/flex-home/views/real-estate/property-category.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/themes/flex-home/views/real-estate/property.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/platform/themes/flex-home/views/real-estate/property.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -574,6 +561,9 @@
       <workItem from="1637031968739" duration="554000" />
       <workItem from="1637130348545" duration="14596000" />
       <workItem from="1640023688641" duration="23699000" />
+      <workItem from="1640096534994" duration="732000" />
+      <workItem from="1640154038769" duration="110000" />
+      <workItem from="1640176243015" duration="7053000" />
     </task>
     <servers />
   </component>
@@ -663,6 +653,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/platform/themes/flex-home/partials/additional-property-fields.blade.php">

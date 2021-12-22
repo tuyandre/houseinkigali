@@ -12,7 +12,16 @@
     <div class="container-fluid w90 padtop20">
         <h1 class="titlehouse">{{ $property->name }}</h1>
         <p class="addresshouse"><i class="fas fa-map-marker-alt"></i> {{ $property->city_name }}</p>
-        <p class="pricehouse"> {{ $property->price_html }} {!! $property->status_html !!}</p>
+        <p class="pricehouse"> {{ $property->price_html }}
+{{--            {!! $property->status_html !!}--}}
+            @if($property->status=="selling")
+                <span class="label-success status-label">FOR SALE </span>
+            @elseif($property->status=="renting")
+                <span class="label-info status-label">FOR RENT</span>
+            @else
+                <span class="label-danger status-label" style="text-transform: uppercase">{{$property->status}}</span>
+            @endif
+        </p>
         <br>
 
 

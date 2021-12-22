@@ -73,4 +73,5 @@
 
     {!! Theme::footer() !!}
 </body>
+
 </html>
